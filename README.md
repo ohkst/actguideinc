@@ -5,7 +5,6 @@ Path of Exile 1 엑트 가이드 iOS 앱 배포용 웹페이지
 ## 앱 정보
 
 - **앱 이름**: POEAct
-- **Bundle ID**: com.truefriend.gsnote
 - **버전**: 1.0.0
 - **플랫폼**: iOS 17.0+
 
