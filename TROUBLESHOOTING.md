@@ -12,7 +12,7 @@
 ### 📋 체크리스트
 
 #### 1. manifest.plist 확인
-- ✅ bundle-identifier: com.truefriend.gsnote
+- ✅ bundle-identifier: com.truefriend.actguid
 - ✅ bundle-version: 1.0.0
 - ✅ IPA URL: https://ohkst.github.io/actguideinc/poeact.ipa
 - ✅ 아이콘 URL: icon-57.png, icon-512.png
@@ -86,7 +86,7 @@ Payload/
     - display-image: icon-57.png
     - full-size-image: icon-512.png
   - metadata
-    - bundle-identifier: com.truefriend.gsnote
+    - bundle-identifier: com.truefriend.actguid
     - bundle-version: 1.0.0
     - title: POEAct
 ```
