@@ -1,0 +1,16 @@
+# iOS Enterprise App Distribution
+# Ensure correct Content-Type headers for manifest.plist and IPA files
+
+<IfModule mod_headers.c>
+    # manifest.plist should be served as text/xml or application/xml
+    <FilesMatch "manifest\.plist$">
+        Header set Content-Type "application/xml"
+    </FilesMatch>
+    
+    # IPA files should be served as application/octet-stream
+    <FilesMatch "\.ipa$">
+        Header set Content-Type "application/octet-stream"
+        Header set Content-Disposition "attachment"
+    </FilesMatch>
+</IfModule>
+
